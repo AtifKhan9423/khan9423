@@ -1,0 +1,32 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  background-color: #333;
+  color: grey;
+}
+
+.navbar-brand, .nav-link {
+  color: blue !important;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: grey;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+
+.section {
+  padding: 20px;
+}
+
+/* Used chatgpt help for this and it should be less then 10% of the code */
