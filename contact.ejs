@@ -1,0 +1,33 @@
+<%- include('../partials/header') %> 
+
+<div class="container">
+  <h1>Contact Me</h1>
+  <p>If you want to get in touch with me, please fill out the form below, or contact me via email or social media:</p>
+
+  <form action="/send-message" method="POST">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+
+  <h3>Or you can contact me directly via:</h3>
+  <ul>
+    <li>Email: atif.khan@ontariotechu.net</li>
+    <li>LinkedIn: <a href="https://www.linkedin.com/in/atif-khan-094781276/">Atif Khan</a></li>
+    <li>GitHub: <a href="https://github.com/AtifKhan9423">Atif's GitHub</a></li>
+  </ul>
+
+  <a href="/" class="btn btn-secondary">Back to Home</a>
+</div>
+
+<%- include('../partials/footer') %> ->
